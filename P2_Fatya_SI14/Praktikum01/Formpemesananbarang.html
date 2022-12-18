@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang</title>
+</head>
+<body style="margin: 0">
+    <fieldset style="background-color: lightgray">
+    <nav style="background-color: gray">
+            <tr height="70px">
+                <td width="20px"></td>
+                <td>
+                    <h4 style="text-align:center">A Web Page</h4>
+                </td>
+                <td width="100px"></td>
+                <td><a href=""><img src="asset/back (1).png" alt="back-left" weight="20px" height="20px"></a></td>
+                <td><a href=""><img src="asset/back (2).png" alt="back-right" weight="20px" height="20px"></a></td>
+                <td><a href=""><img src="asset/eba0ccaffeaa18b8f61152a234115b3c.png" alt="x-sign" weight="20px" height="20px"></a></td>
+                <td><a href=""><img src="asset/d3d9446802a44259755d38e6d163e820.png" alt="menu-sign" weight="20px" height="20px"></a></td>
+                <textarea 
+                    name="instructions" 
+                    id="id_instructions" 
+                    cols="145" 
+                    rows="1"
+                    placeholder="http://"
+                ></textarea>
+                <textarea 
+                    name="instructions"
+                    id="instructions" 
+                    cols="10" 
+                    rows="1"
+                    placeholder="search"
+                ></textarea>
+            </tr>
+        </nav>
+        
+        <td><a href="" style="background-color: white;">|Home________________|</a></td>
+            <td><a href="" style="background-color: white;">|______________General Link______________|</a></td>
+            <td><a href="" style="background-color: white;">|______________Transaction History______________|</a></td>
+            <td><a href="" style="background-color: white;">|______________Policy______________|</a></td>
+            <td><a href="" style="background-color: white;">|________________Logout|</a></td>
+        </table>
+        <!-- ini side bar -->
+        <aside
+            style="
+            width: 80%;
+            heigth: 250px;
+            float: right;
+            margin-top: 50px;
+            padding: 10px 20px;
+            margin-left: 30px;
+            "
+        >
+            <form>
+                Title Here
+                <textarea 
+                    style="margin-left: 60px; front-weight: bold"
+                    name="title"
+                    id="id_title" 
+                    cols="100" 
+                    rows="1"
+                ></textarea>
+                <br />
+                Description <br>
+                <textarea 
+                    style="margin-left: 128px; front-weight: bold"
+                    name="description" 
+                    id="id_description" 
+                    cols="110" 
+                    rows="10"
+                ></textarea>
+                <br />
+                Account Number
+                <textarea 
+                    style="margin-left: 13px; front-weight: bold"
+                    name="accountnumber" 
+                    id="id_accountnumber" 
+                    cols="100" 
+                    rows="1"
+                ></textarea>
+                <br />
+                Bank
+                <td>
+                    <span style="margin-left: 88px; front-weight: bold">
+                        <select>
+                            <option>BCA</option>
+                            <option>MANDIRI</option>
+                            <option>BRI</option>
+                        </select>
+                    </span>
+                </td>
+                <br />
+                Account Holder
+                <textarea 
+                    style="margin-left: 19px; front-weight: bold"
+                    name="accountholder"
+                    id="id_accountholder"
+                    cols="100" 
+                    rows="1"
+                ></textarea>
+                <br />
+                Transaction
+                <select style="margin-left: 47px; front-weight: bold" name="transaction" id="id_transaction">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <ul>
+                    <li>If the transaction is for 3 person, choose 3 from the drop-down list</li>
+                </ul>
+                <ul type="none">
+                    <li><input type="checkbox" name="drop-down[]" value="send to mobile phone">Send to Mobile Phone</li>
+                    <li><input type="checkbox" name="drop-down[]" value="send to email">Send to Email</li>
+                </ul>
+                <br />
+                Send to Mobile Phone
+                <textarea 
+                    style="margin-left: 10px; front-weight: bold"
+                    name="mobilephone"
+                    id="id_mobilephone" 
+                    cols="100" 
+                    rows="1"
+                ></textarea>
+                <br />
+                Send to Email
+                <textarea 
+                    style="margin-left: 62px; front-weight: bold"
+                    name="email" 
+                    id="id_email" 
+                    cols="100" 
+                    rows="1"
+                ></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Generate Nabr Link">
+            </form>
+        </aside>
+
+        <!-- ini isi konten-->
+        <article style="margin-left: 10px; margin-top: 50px; width: 10%"></article>            
+        <form> 
+                <tr>
+                    <td>
+                            <input type="button" value="upload gambar">
+                    </td>
+                </tr>
+        </form>
+        </article>
+    </fieldset>
+</body>
+</html>
