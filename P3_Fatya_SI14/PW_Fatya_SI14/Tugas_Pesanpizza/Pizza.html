@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Bistro | Pizza-on-Demand</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <form action="GET" action="Registrasi.php"></form>
+    <table>
+        <tr>
+            <td>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour</td>
+        </tr>
+    </table>
+    <h4>Your Information</h4>
+    <table>
+        <p>
+            <label>Name:</label>
+            <input type="text" name="name" value="" size="40">
+        </p>
+        <p>
+            <label>Address:</label>
+            <input type="text" name="address" value="" size="40">
+        </p>
+        <p>
+            <label>Telephone Number:</label>
+            <input type="text" name="Telp Numb" value="" size="40">
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="text" name="Email" value="" size="40">
+        </p>
+        <p>
+            <label>Delivery instructions:</label>
+            <textarea name="Delivery instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+    </table>
+    <h2>Design Your Dream Pizza</h2>
+    <td>
+        <tr>Pizza Specs</tr>
+    </td>
+    <p>
+        <label>Crust (choose one)</label>
+        <input type="radio" name="C" value="Classic White" checked/>Classic White
+        <input type="radio" name="C" value="Multigrain" />Multigrain
+        <input type="radio" name="C" value="Cheese-stuffed crust" />Cheese-stuffed crust
+        <input type="radio" name="C" value="Gluten-free" />Gluten-free
+    </p>
+    <p>
+        <label>Toppings (choose as many as you want)</label>
+        <input type="checkbox" name="T" value="Red Sauce" checked/>Red Sauce
+        <input type="checkbox" name="T" value="White Sauce" />White Sauce
+        <input type="checkbox" name="T" value="Mozzarrella Cheese" />Mozzarella Cheese
+        <input type="checkbox" name="T" value="Papperoni" />Papperoni
+        <input type="checkbox" name="T" value="Mushrooms" />Mushrooms
+        <input type="checkbox" name="T" value="Peppers" />Peppers
+        <input type="checkbox" name="T" value="Anchovies" />Anchovies
+    </p>
+    <table>
+    <p>
+        <tr>Number</tr>
+    </p>
+    <p>
+        <label>How Many Pizzas</label>
+        <select name="How Many">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </p>
+    </table>
+    <div>
+        <input type="submit" value="Bring me a pizza!" name="proses" />
+        <input type="reset" value="reset" name="start over" />
+    </div>
+</body>
+</html>

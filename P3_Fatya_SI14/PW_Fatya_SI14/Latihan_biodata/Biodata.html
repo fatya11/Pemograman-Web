@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isian Form Biodata</title>
+</head>
+<body>
+    <h1 style="text-align:center">Form Biodata Peserta</h1>
+    <form method="POST" action="registrasi.php"></form>
+
+        <fieldset style="border:1px solid;background-color: beige;">
+        <legend>Biodata Pribadi</legend>
+        <p>
+            <label>Nama Lengkap</label>
+            <input type="text" name="nama" value="" size="40"/>
+        </p>
+        <p>
+            <label>Tempat lahir</label>
+            <input type="text" name="tmp_lahir" value="" size="40" />
+        </p>
+        <p>
+            <label>Tempat Tanggal Lahir</label>
+            <input type="date" name="tgl lahir" value="" />
+        </p>
+        <p>
+            <label>Alamat Lengkap</label>
+            <textarea name="alamat" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label>Status Peserta</label>
+            <select name="status">
+                <option value="Siswa">siswa</option>
+                <option value="Mahasiswa">mahasiswa</option>
+                <option value="Pegawai">pegawai</option>
+                <option value="Wiraswasta">wiraswasta</option>
+            </select>
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <input type="radio" name="jk" value="L" checked/>Laki-laki
+            <input type="radio" name="jk" value="P" />Perempuan
+        </p>
+        <p>
+            <label>Hobi</label>
+            <input type="checkbox" value="membaca" name="hobi1" />membaca
+            <input type="checkbox" value="menulis" name="hobi2" />menulis
+            <input type="checkbox" value="menggambar" name="hobi3" />menggambar
+            <input type="checkbox" value="olahraga" name="hobi4" />olahraga
+        </p>
+        <div>
+            <input type="submit" value="kirim" name="proses" />
+            <input type="reset" value="isi ulang" name="start over" />
+        </div>
+        </fieldset>
+</body>
+</html>
